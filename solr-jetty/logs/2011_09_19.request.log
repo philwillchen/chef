@@ -1,0 +1,6 @@
+127.0.0.1 -  -  [19/09/2011:09:03:25 +0000] "POST /solr/update HTTP/1.1" 200 149 
+127.0.0.1 -  -  [19/09/2011:09:03:26 +0000] "POST /solr/update HTTP/1.1" 200 147 
+127.0.0.1 -  -  [19/09/2011:09:03:26 +0000] "POST /solr/update HTTP/1.1" 200 147 
+0:0:0:0:0:0:0:1 -  -  [19/09/2011:09:05:13 +0000] "GET /solr/select?fq=%2BX_CHEF_type_CHEF_X%3Anode+%2BX_CHEF_database_CHEF_X%3Achef&indent=off&q=%2A%3A%2A&start=0&wt=json&rows=1000&sort=X_CHEF_id_CHEF_X+asc HTTP/1.1" 200 253 
+0:0:0:0:0:0:0:1 -  -  [19/09/2011:09:07:10 +0000] "GET /solr/select?fq=%2BX_CHEF_type_CHEF_X%3Anode+%2BX_CHEF_database_CHEF_X%3Achef&indent=off&q=%2A%3A%2A&start=0&wt=json&rows=1000&sort=X_CHEF_id_CHEF_X+asc HTTP/1.1" 200 252 
+0:0:0:0:0:0:0:1 -  -  [19/09/2011:09:07:20 +0000] "GET /solr/select?fq=%2BX_CHEF_type_CHEF_X%3Anode+%2BX_CHEF_database_CHEF_X%3Achef&indent=off&q=%2A%3A%2A&start=0&wt=json&rows=1000&sort=X_CHEF_id_CHEF_X+asc HTTP/1.1" 200 252 

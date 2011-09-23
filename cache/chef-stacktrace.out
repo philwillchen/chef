@@ -1,0 +1,17 @@
+Generated at Thu Sep 22 10:03:17 -0700 2011
+Net::HTTPServerException: 412 "Precondition Failed"
+/usr/lib/ruby/1.8/net/http.rb:2105:in `error!'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/rest.rb:237:in `api_request'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/rest.rb:288:in `retriable_rest_request'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/rest.rb:218:in `api_request'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/rest.rb:125:in `post_rest'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/client.rb:295:in `sync_cookbooks'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/client.rb:191:in `setup_run_context'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/client.rb:159:in `run'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/application/client.rb:239:in `run_application'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/application/client.rb:229:in `loop'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/application/client.rb:229:in `run_application'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/../lib/chef/application.rb:67:in `run'
+/usr/lib64/ruby/gems/1.8/gems/chef-0.10.4/bin/chef-client:26
+/usr/bin/chef-client:19:in `load'
+/usr/bin/chef-client:19
